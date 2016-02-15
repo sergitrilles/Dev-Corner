@@ -2,6 +2,8 @@ site_name: Dev-Corner
 pages:
 - Home: 'index.md'
 - Installation: 'install.md'
+- Data: 'data.md'
+- Licenses: 'licenses.md'
 - About: 'about.md'
 theme: yeti
 markdown_extensions:
