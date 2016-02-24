@@ -2,6 +2,8 @@ site_name: Dev-Corner
 site_url: http://giv-oct.uni-muenster.de/dev-corner/
 site_description: Project documentation about the Open City Toolkit (OCT)
 site_author: SitcomLab
+site_favicon: favicon.ico
+site_dir: /var/www/dev-corner
 
 repo_url: https://github.com/geo-c/Dev-Corner
 
@@ -25,8 +27,7 @@ theme: readthedocs
 
 markdown_extensions:
     - toc:
-        permalink: 
-    - admonition:
+        permalink: true
 
 copyright: Copyright &copy; 2016 <a href="https://www.uni-muenster.de/Geoinformatics/">Institute for Geoinformatics, Münster</a>.
 # google_analytics: []
