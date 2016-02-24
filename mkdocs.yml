@@ -2,7 +2,10 @@ site_name: Dev-Corner
 site_url: http://giv-oct.uni-muenster.de/dev-corner/
 site_description: Project documentation about the Open City Toolkit (OCT)
 site_author: SitcomLab
-site_favicon: favicon.ico
+site_favicon: img/favicon.ico
+# Local
+#site_dir: site
+# Server
 site_dir: /var/www/html/dev-corner
 
 repo_url: https://github.com/geo-c/Dev-Corner
@@ -22,6 +25,9 @@ pages:
     - Licenses: about/licenses.md
     - Repositories: about/repositories.md
     - Contributers: about/contributers.md
+# - NewSection
+    #- newPage: newSection/newPage.md
+# - newSinlePage: newSinlePage.md
 
 theme: readthedocs
 

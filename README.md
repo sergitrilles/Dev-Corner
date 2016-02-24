@@ -37,7 +37,7 @@ mkdocs build --clean
 * If you want to add new pages to this documenation, create a new `.md`-Files in folder: `docs/`
 **Hint**: If you want to add sections, create a new folder, like this: `docs/NewSection` and create there your new `.md`-Files
 
-* Before building, don't forget to add your new page(s) and sections in the `mkdocs.yml`-file. Please find an example at the end of the code: `NewSection` and `newPage2`
+* Before building, don't forget to add your new page(s) and sections in the `mkdocs.yml`-file. Please find an example at the end of the code: `NewSection` and `newSinglePage.md`
 
 ```
 - Home: index.md
@@ -56,7 +56,7 @@ mkdocs build --clean
     - Contributers: about/contributers.md
 - NewSection:
     - newPage: newSection/newPage.md
-- newPage2: newPage2.md
+- newSinglePage.md: newSinglePage.md
 ```
 
 * Build the documentation with the command above (see: 4.). All `.md`-files will be generated into `.html`-Files in the folder `site/`.
