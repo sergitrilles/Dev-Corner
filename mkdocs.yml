@@ -1,11 +1,32 @@
 site_name: Dev-Corner
+site_url: http://giv-oct.uni-muenster.de/dev-corner/
+site_description: Project documentation about the Open City Toolkit (OCT)
+site_author: SitcomLab
+
+repo_url: https://github.com/geo-c/Dev-Corner
+
 pages:
-- Home: 'index.md'
-- Installation: 'install.md'
-- Data: 'data.md'
-- Licenses: 'licenses.md'
-- About: 'about.md'
-theme: yeti
+- Home: index.md
+- Installations: 
+    - Nodejs: installations/nodejs.md
+    - Bower: installations/bower.md
+- Data:
+    - Collection: data/collection.md
+    - Storage: data/storage.md
+    - Retrieval: data/retrieval.md
+    - Analysis: data/analysis.md
+    - Visualization: data/visualization.md
+- About:
+    - Licenses: about/licenses.md
+    - Repositories: about/repositories.md
+    - Contributers: about/contributers.md
+
+theme: readthedocs
+
 markdown_extensions:
-    - fenced_code
-    - smarty
+    - toc:
+        permalink: 
+    - admonition:
+
+copyright: Copyright &copy; 2016 <a href="https://www.uni-muenster.de/Geoinformatics/">Institute for Geoinformatics, Münster</a>.
+# google_analytics: []

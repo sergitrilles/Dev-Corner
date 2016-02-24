@@ -1,4 +1,4 @@
-Before you use the following snippets, please make sure, that you read the [terms of use](license.md#using-our-data) of our data.
+Before you use the following snippets, please make sure, that you read the [terms of use](../../about/licenses) of our data.
 
 
 ## Retrieving all resources from a group

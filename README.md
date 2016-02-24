@@ -45,7 +45,7 @@ pages:
 - NewPage: newPage.md
 ```
 
-7. Build the documenation with the command above (see: 4.). All `.md`-files will be generated into `.html`-Files in the folder `site/`.
+7. Build the documentation with the command above (see: 4.). All `.md`-files will be generated into `.html`-Files in the folder `site/`.
 **Hint**: For automatically building, you can use the following command, to start the built-in-MkDocs-Server:
 
 ```

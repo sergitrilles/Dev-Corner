@@ -1,11 +1,9 @@
-## Nodejs
-
-### Installation
+## What is Nodejs?
 
 >Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. 
 >(Source: [https://nodejs.org/en/](https://nodejs.org/en/), 2016-02-15)
 
-#### Linux
+##### Linux
 
 * For **Ubuntu** add the following link to you package-list:
 ```bash
@@ -22,7 +20,7 @@ sudo apt-get install -y nodejs
 sudo npm install npm -g
 ```
 
-#### MacOS
+##### MacOS
 
 * Go to [https://nodejs.org/en/](https://nodejs.org/en/) and download the latest stable version (LTS-verion is recommend)
 * Install the package
@@ -33,7 +31,7 @@ sudo npm install npm -g
 ```
 
 
-#### Windows
+##### Windows
 
 * Go to [https://nodejs.org/en/](https://nodejs.org/en/) and install 
 * Open the Windows-Shell (cmd) and update the node-package-manager:
@@ -50,67 +48,4 @@ Install all dependecies (node-packages) of a `package.json`-file.
 
 Create a `package.json`:
 
-
-## Bower
-
-### Installation
-
->A package manager for the web 
->(Source: [http://bower.io](http://bower.io), 2016-02-15)
-
-#### Linux/MacOS
-
-* You need [Nodejs](install.md#nodejs) to install Bower.
-* Install Bower globally with the following command:
-
-```bash
-sudo npm install bower -g
-```
-
-#### Windows
-
-* You need [Nodejs](install.md#nodejs) to install Bower.
-* Install Bower globally with the following command:
-
-```bash
-npm install bower -g
-```
-
-### Install packages
-
-Install all dependecies (bower-packages) of a `bower.json`-file.
-
-
-### Init
-
-```bash
-bower init
-```
-
- -> bower.json
-
-```bash
-mkdir lib
-```
--> /public/lib
-
-```bash
-nano .bowerrc
-```
-
-Bowerrc-File:
-
-```javascript
-{
-	"directory":"lib"
-}
-```
-
-```bash
-bower install jquery --save
-bower install bootstrap --save
-```
-
-
-
-
+To-Do
