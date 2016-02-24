@@ -35,18 +35,31 @@ mkdocs build --clean
 ```
 
 * If you want to add new pages to this documenation, create a new `.md`-Files in folder: `docs/`
+**Hint**: If you want to add sections, create a new folder, like this: `docs/NewSection` and create there your new `.md`-Files
 
-* Before building, don't forget to add your new page in the `mkdocs.yml`-file:
+* Before building, don't forget to add your new page(s) and sections in the `mkdocs.yml`-file. Please find an example at the end of the code: `NewSection` and `newPage2`
 
 ```
-pages:
 - Home: index.md
-- About: about.md
-- NewPage: newPage.md
+- Installations: 
+    - Nodejs: installations/nodejs.md
+    - Bower: installations/bower.md
+- Data:
+    - Collection: data/collection.md
+    - Storage: data/storage.md
+    - Retrieval: data/retrieval.md
+    - Analysis: data/analysis.md
+    - Visualization: data/visualization.md
+- About:
+    - Licenses: about/licenses.md
+    - Repositories: about/repositories.md
+    - Contributers: about/contributers.md
+- NewSection:
+    - newPage: newSection/newPage.md
+- newPage2: newPage2.md
 ```
 
 * Build the documentation with the command above (see: 4.). All `.md`-files will be generated into `.html`-Files in the folder `site/`.
->>>>>>> origin/master
 **Hint**: For automatically building, you can use the following command, to start the built-in-MkDocs-Server:
 
 ```
