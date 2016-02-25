@@ -12,7 +12,7 @@ repo_url: https://github.com/geo-c/Dev-Corner
 
 pages:
 - Home: index.md
-- Installations: 
+- Installations:
     - Nodejs: installations/nodejs.md
     - Bower: installations/bower.md
 - Data:

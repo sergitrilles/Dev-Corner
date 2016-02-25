@@ -1,6 +1,6 @@
 ## What is Bower?
 
->A package manager for the web 
+>A package manager for the web
 >(Source: [http://bower.io](http://bower.io), 2016-02-15)
 
 ##### Linux/MacOS
@@ -55,7 +55,3 @@ Bowerrc-File:
 bower install jquery --save
 bower install bootstrap --save
 ```
-
-
-
-
