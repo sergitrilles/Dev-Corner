@@ -13,7 +13,7 @@ python --version
 pip --version
 ```
 
-* This Documentation uses [MkDocs](http://www.mkdocs.org/), so that the documentatio can be written in Markdown. **Cheat cheets** for Markdown can be found here: 
+* This Documentation uses [MkDocs](http://www.mkdocs.org/), so that the documentation can be written in Markdown. **Cheat cheets** for Markdown can be found here: 
 	* [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 	* [https://daringfireball.net/projects/markdown/](https://daringfireball.net/projects/markdown/)
 
@@ -23,7 +23,7 @@ pip --version
 pip install mkdocs
 ```
 
-* Clone this repository to into your local-repository and build the documentation with the following command:
+* Clone this repository to your local-repository and build the documentation with the following command:
 
 ```
 mkdocs build
@@ -35,9 +35,9 @@ mkdocs build --clean
 ```
 
 * If you want to add new pages to this documenation, create a new `.md`-Files in folder: `docs/`
-**Hint**: If you want to add sections, create a new folder, like this: `docs/NewSection` and create there your new `.md`-Files
+**Hint**: If you want to add sections, create a new folder, like this: `docs/NewSection` and create your new `.md`-files in this folder
 
-* Before building, don't forget to add your new page(s) and sections in the `mkdocs.yml`-file. Please find an example at the end of the code: `NewSection` and `newSinglePage.md`
+* Before building, don't forget to add your new page(s) and sections in the `mkdocs.yml`-file. Please find an example at the end of this page: `NewSection` and `newSinglePage.md`
 
 ```
 - Home: index.md
@@ -59,7 +59,7 @@ mkdocs build --clean
 - newSinglePage.md: newSinglePage.md
 ```
 
-* Build the documentation with the command above (see: 4.). All `.md`-files will be generated into `.html`-Files in the folder `site/`.
+* Build the documentation with the command above (see: 4.). All `.md`-files will be generated into `.html`-files in the folder `site/`.
 **Hint**: For automatically building, you can use the following command, to start the built-in-MkDocs-Server:
 
 ```
