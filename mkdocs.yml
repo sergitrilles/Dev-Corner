@@ -24,7 +24,7 @@ pages:
 - About:
     - Licenses: about/licenses.md
     - Repositories: about/repositories.md
-    - Contributers: about/contributers.md
+    - Contributors: about/contributors.md
 # - NewSection
     #- newPage: newSection/newPage.md
 # - newSinlePage: newSinlePage.md
