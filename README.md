@@ -67,4 +67,4 @@ mkdocs serve
 ```
 Open a new browser-tab and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
-For more information about MkDocs, please have a look into their documenation [http://www.mkdocs.org/](http://www.mkdocs.org/)
+For more information about MkDocs, please have a look into their documentation [http://www.mkdocs.org/](http://www.mkdocs.org/)
