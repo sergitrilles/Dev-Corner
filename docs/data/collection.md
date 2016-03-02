@@ -1,3 +1,3 @@
 # Collection
 
-To-Do
+This is the collection example!
