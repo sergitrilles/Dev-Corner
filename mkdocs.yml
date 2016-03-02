@@ -36,4 +36,4 @@ markdown_extensions:
         permalink: true
 
 copyright: Copyright &copy; 2016 <a href="https://www.uni-muenster.de/Geoinformatics/">Institute for Geoinformatics, Münster</a>.
-# google_analytics: []
+google_analytics: ['UA-74599828-1', 'http://giv-oct.uni-muenster.de/dev-corner/']
