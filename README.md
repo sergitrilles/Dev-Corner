@@ -9,11 +9,11 @@ Documentation written with Mkdocs
 * You need Python (2.7.2) and the Python Package Index (1.5.2) to build the documentation. Check if your operating-system provides it already:
 
 ```
-python --version 
+python --version
 pip --version
 ```
 
-* This Documentation uses [MkDocs](http://www.mkdocs.org/), so that the documentation can be written in Markdown. **Cheat cheets** for Markdown can be found here: 
+* This documentation uses [MkDocs](http://www.mkdocs.org/), so that the documentation can be written in Markdown. **Cheat cheets** for Markdown can be found here: 
 	* [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 	* [https://daringfireball.net/projects/markdown/](https://daringfireball.net/projects/markdown/)
 
@@ -41,7 +41,7 @@ mkdocs build --clean
 
 ```
 - Home: index.md
-- Installations: 
+- Installations:
     - Nodejs: installations/nodejs.md
     - Bower: installations/bower.md
 - Data:

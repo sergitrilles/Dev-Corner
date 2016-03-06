@@ -15,6 +15,7 @@ pages:
 - Installations:
     - Nodejs: installations/nodejs.md
     - Bower: installations/bower.md
+    - MkDocs: installations/mkdocs.md
 - Data:
     - Collection: data/collection.md
     - Storage: data/storage.md

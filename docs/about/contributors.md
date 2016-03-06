@@ -1,4 +1,4 @@
-##### Contributors
+# Contributors
 
 * Devanjan Bhattacharya
 * Auriol Degbelo <i class="fa fa-github"></i> [aurideg](https://github.com/aurideg)
